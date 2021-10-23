@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin:0;
+  outline: none;
+  height: 85vh;
+  width: 100%;
+  overflow-x: hidden;
+  color: #FEFEFE;
+  background: #141c2f;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.input-area {
+  /* border: 2px solid red; */
+  width: calc(100% - 10%);
+  text-align:center;
+  font-size: 17px;
+  background: #1F2A48;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.fa-search {
+  font-size: 30px;
+    margin: 0 0 0 16px;
+    color: #1675df;
+}
+
+input {
+  border: none;
+  background: #1F2A48;
+  height: 50px;
+  font-size: 17px;
+  color: #FEFEFE;
+  margin-left: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #FEFEFE;
+}
+
+button{
+  /* background: #1F2A48; */
+  color: #FEFEFE;
+  background: #0079fE;
+  /* height: 39px; */
+    border-radius: 5px;
+    width: 70px;
+    height: 49px;
+    font-size: 21px;
+    width: 115px;
+    transition: all 300ms ease-in-out 0s;
+    margin-right: 5px;
+}
+
+button:hover {
+  transform: scale(.85);
+}
+
+.outline{
+  outline:none;
+}
+
+.border{
+  border:none;
+}
+
+
+.info-card {
+  margin-top: 20px;
+    width: calc(100% - 10%);
+    height: auto;
+    /* background: red; */
+    border-radius: 5px;
+    background: #1F2A48;
+
+}
+
+.info-card img {
+  border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: 20px 20px 20px 40px;
+}
+
+.details {
+  display: flex;
+}
+
+.user_name {
+  color: #1675df;
+}
+
+.follow-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow_icons {
+  width: calc(100% - 20%);
+  height: 50px;
+  background: #141c2f;
+  display: flex;
+    justify-content: space-\; justify-content: s;
+    justify-content: space-around;
+    height: auto;
+    border-radius: 5px;
+}
+
+.social_icons_sections {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 20px 0 20px 45px;
+}
+
+.social_icons_sections h2 {
+  margin:5px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.fa-search-location , .fa-link,  .fa-link , .fa-city {
+  margin-right: 10px;
+    font-size: 20px;
+}
